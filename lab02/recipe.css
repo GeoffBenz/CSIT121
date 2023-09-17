@@ -1,0 +1,29 @@
+h1{
+	text-transform:uppercase;
+	color:sandybrown;
+	text-shadow:2px 2px grey;
+	
+
+}
+
+h2{
+	text-transform:uppercase;
+	font-size:85%;
+
+}
+body{
+	margin:30px;
+	background-color:lightblue;
+}
+ol{
+	margin-left:175px;
+	font-size: 112%;
+}
+li{
+	font-family:Arial;
+}
+p{
+	font-style:bold;
+	color:brown;
+	font-synthesis:bold;
+}
