@@ -1,0 +1,99 @@
+h1{
+	background-color:#C4FCF7;
+	color:#D19826;
+	text-shadow:2px 4px black;
+	font-size:300%;
+	padding: 10px;
+	font-family:Copperplate,fantasy;
+	border: 3px ridge #004FFF; 
+	border-radius: 15px;
+	box-shadow:5px 5px 5px gray;
+
+}
+
+h2{
+	background-color:#C4FCF7;
+	text-transform: uppercase;
+	color: #D19826;
+	text-shadow:2px 2px black;
+	border: 3px ridge #004FFF; 
+	border-radius: 15px;
+
+}
+
+h3{
+	font-style: italic;
+	
+
+
+}
+
+body{
+	margin:0px;
+	
+	background-image: linear-gradient(to bottom,#CEC9CA ,#3F89EA);
+
+}
+
+ol{
+	background-color:#B3C5D1;
+	margin:30px;
+	font-size:20px;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+	
+
+}
+li{
+	background-color: #B3C5D1;
+	
+
+	
+}
+ul{
+	background-color:#B3C5D1;
+	font-size:20px;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+	margin:25px;
+}
+p{
+	font-size:20px;
+	color: whitesmoke;
+
+}
+A{
+	font-size: 24px;
+	color:ghostwhite;
+	text-decoration:none ;
+
+}
+
+a:visited{
+	color:#cf0000;
+	text-decoration:none;
+
+}
+
+.baking{
+	background-image:url(images/baking.jpg);
+	height:168px;
+	width:300px;
+	position: absolute;
+	top: 270px;
+	left: 300px;
+	
+}
+.cookies{
+
+	position:absolute;
+	top:530px;
+	right:30px;
+
+
+}
+
+
+
