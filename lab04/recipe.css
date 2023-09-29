@@ -1,0 +1,151 @@
+body{
+	margin:0px;
+	background-image: linear-gradient(to bottom,#CEC9CA ,#3F89EA);
+}
+
+.container{
+	width:100vw;
+	height:100vh;
+
+	display: grid;
+
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:150px 50px 100px 1fr 1fr 1fr 50px ;
+
+	gap:10px;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+h1{
+	background-color:#C4FCF7;
+	color:#D19826;
+	text-shadow:2px 4px black;
+	font-size:300%;
+	padding: 10px;
+	font-family:Copperplate,fantasy;
+	border: 3px ridge #004FFF; 
+	border-radius: 15px;
+	box-shadow:5px 5px 5px gray;
+
+	grid-column-start:1;
+	grid-column-end:4;
+	grid-row-start:1;
+	grid-row-end:1;
+}
+
+
+.h2i{
+	background-color:#C4FCF7;
+	text-transform: uppercase;
+	color: #D19826;
+	text-shadow:2px 2px black;
+	border: 3px ridge #004FFF; 
+	border-radius: 15px;
+
+	grid-column-start:1;
+	grid-column-end:2;
+	
+
+
+}
+
+.h2s{
+	background-color:#C4FCF7;
+	text-transform: uppercase;
+	color: #D19826;
+	text-shadow:2px 2px black;
+	border: 3px ridge #004FFF; 
+	border-radius: 15px;
+
+	grid-column-start:2;
+	grid-column-end:3;
+
+}
+
+h3{
+	font-style: italic;
+	grid-column-start:1;
+	grid-row-start: 2;
+
+}
+
+
+
+
+
+.Ingredients{
+	background-color:#B3C5D1;
+	font-size:20px;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+	
+	grid-row-start:4 ;
+	grid-row-end:5;
+
+	
+}
+
+.steps{
+	background-color:#B3C5D1;
+	font-size:20px;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+
+	grid-row-start:4 ;
+	grid-row-end:6;
+
+}
+
+.baking{
+	background-image:url(images/baking.jpg);
+	grid-row-start:5 ;
+	grid-row-end:6;
+	grid-column-start:1;
+	background-repeat:no-repeat;
+	width:100%;
+
+}
+
+.cookies{
+	grid-row-start:4 ;
+	grid-row-end:6;
+	grid-column-start:3;
+	width:100%;
+	height:100% ;
+
+
+}
+
+a:link{
+	font-size: 24px;
+	color:ghostwhite;
+	text-decoration:none ;
+	grid-row-start:7;
+	grid-row-end:7;
+	grid-column-start:1;
+
+
+}
+
+a:visited{
+	color:#cf0000;
+	text-decoration:none;
+	grid-row-start:7 ;
+	grid-row-end:7;
+	grid-column-start:1;
+}
+
+p{
+	font-size:20px;
+	color: whitesmoke;
+	grid-row-start:6 ;
+	grid-row-end:7;
+	grid-column-start:1;
+	grid-column-end:3;
+
+}
+
+
