@@ -1,0 +1,272 @@
+h1{
+	background-color:#C4FCF7;
+	color:#D19826;
+	text-shadow:2px 4px black;
+	font-size:300%;
+	padding: 10px;
+	font-family:Copperplate,fantasy;
+	border: 3px ridge #004FFF; 
+	border-radius: 15px;
+	box-shadow:5px 5px 5px gray;
+
+}
+
+h2{
+	background-color:#C4FCF7;
+	text-transform: uppercase;
+	color: #D19826;
+	text-shadow:2px 2px black;
+	border: 3px ridge #004FFF; 
+	border-radius: 15px;
+	width: 40%;
+
+}
+
+h3{
+	font-style: italic;
+	
+
+
+}
+
+body{
+	margin:0px;
+	background-image: linear-gradient(to bottom,#CEC9CA ,#3F89EA);
+	height:100vh;
+}
+
+#steps{
+	position: absolute;
+	right:250px;
+	top:190px;
+}
+ol{
+	position: absolute;
+	top:235px;
+	right:150px;
+	background-color:#B3C5D1;
+	margin:30px;
+	font-size:20px;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+	width:40%;
+}
+
+li{
+	background-color: #B3C5D1;
+	
+
+	
+}
+ul{
+	background-color:#B3C5D1;
+	font-size:20px;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+	margin:25px;
+	width: 40%;
+}
+p{
+	font-size:20px;
+	color: whitesmoke;
+
+}
+A{
+	font-size: 24px;
+	color:ghostwhite;
+	text-decoration:none ;
+
+}
+
+a:visited{
+	color:#cf0000;
+	text-decoration:none;
+
+}
+
+footer{
+	background-color:#B3C5D1;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+	margin:25px;
+
+}
+
+
+.baking{
+	background-image:url(images/baking.jpg);
+	height:165px;
+	width:300px;
+	position: absolute;
+	top: 275px;
+	left: 300px;
+	
+}
+.cookies{
+	position:absolute;
+	top:250px;
+	right:5px;
+	width:165px;
+}
+Table,th,td{
+	border: 2px solid #000;
+	border-top: 5px solid #000;
+	border-collapse: collapse;
+	background-color:white;
+	margin:25px;
+	width:10vw;
+	font-size: 20px;
+	
+
+}
+
+
+#wrapper{
+	align-content: center;
+	width:80%;
+}
+video{
+	position: absolute;
+	margin: 10px;
+	right:600px;
+	top:440px ;
+}
+
+@media (max-width: 768px){
+
+	body{
+	margin:0px;
+	position: relative;
+	background-image: linear-gradient(to bottom,#CEC9CA ,#3F89EA);
+	height:200vh;
+	}
+
+	h1{
+		background-color:#C4FCF7;
+		color:#D19826;
+		text-shadow:2px 4px black;
+		font-size:190%;
+		padding: 10px;
+		font-family:Copperplate,fantasy;
+		border: 3px ridge #004FFF; 
+		border-radius: 15px;
+		box-shadow:5px 5px 5px gray;
+	}
+
+	#steps{
+		position: absolute;
+		top:425px;
+		left:10px;
+	}
+
+	ol{
+	position: absolute;
+	top:460px;
+	left:10px;
+	background-color:#B3C5D1;
+	margin:30px;
+	font-size:20px;
+	border-width:8px;
+	border-style:double;
+	border-color: #28018C;
+	width:70%;
+	}
+
+	li{
+		background-color: #B3C5D1;
+		
+	}
+
+	#ingredients{
+		position: absolute;
+		top:110px;
+		left:5px;
+	}
+
+	ul{
+		position:absolute;
+		top:150px;
+		background-color:#B3C5D1;
+		font-size:20px;
+		border-width:8px;
+		border-style:double;
+		border-color: #28018C;
+		margin:25px;
+		width:70%;
+		
+	}
+
+	p{
+		font-size:20px;
+		color: whitesmoke;
+	}
+
+	A{
+		font-size: 24px;
+		color:ghostwhite;
+		text-decoration:none ;
+	}
+
+	a:visited{
+		color:#cf0000;
+		text-decoration:none;
+
+	}
+
+	footer{
+		position: absolute;
+		top:1250px;
+		background-color:#B3C5D1;
+		border-width:8px;
+		border-style:double;
+		border-color: #28018C;
+		margin:25px;
+
+	}
+
+	.baking{
+	background-image:url(images/baking.jpg);
+	height:100px;
+	width:300px;
+	position: absolute;
+	top: 70px;
+	left: 300px;
+	}
+
+	.cookies{
+		position:absolute;
+		top:360px;
+		right:5px;
+		width:275px;
+		height:120px;
+	}
+
+	Table,th,td{
+	border: 2px solid #000;
+	border-top: 5px solid #000;
+	border-collapse: collapse;
+	background-color:white;
+	margin:25px;
+	width:10vw;
+	font-size: 20px;
+	}
+
+	#NL{
+		position: absolute;
+		top: 800px;
+		left: 125px;
+	}
+
+	video{
+		position: absolute;
+		margin: 10px;
+		right:100px;
+		top:1020px ;
+	}
+}
+
+
+
